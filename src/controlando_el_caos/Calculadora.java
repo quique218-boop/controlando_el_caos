@@ -32,7 +32,13 @@ public class Calculadora {
  else if(c== 2){       System.out.println("Resta: " + (a - b));
  
  }
- else if(c== 3){       System.out.println("Multiplicación: " + (a * b));
+ else if(c== 3){ 
+	 System.out.println("introduzca primer valor a multiplicar");
+	 a = scan.nextInt();
+	 System.out.println("introduzca segundo valor a multiplicar");
+	 b = scan.nextInt();
+	 
+	 System.out.println("Multiplicación: " + (a * b));
  
  }
  else if(c== 4){      System.out.println("División: " + (a / b));
