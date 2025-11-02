@@ -20,7 +20,13 @@ public class Calculadora {
         
         c = scan.nextInt();
         
+        
  if(c== 1){
+	 System.out.println("introduzca primer valor a sumar");
+	 a = scan.nextInt();
+	 System.out.println("introduzca segundo valor a sumar");
+	 b = scan.nextInt();
+	 
         System.out.println("Suma: " + (a + b));
  }
  if(c== 2){       System.out.println("Resta: " + (a - b));
