@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Calculadora {
 	public static void main(String[] args) {
-        int a = 0;
-        int b = 0;
+        int a = 8;
+        int b = 4;
         int c = 0;
 		
 		
@@ -29,13 +29,13 @@ public class Calculadora {
 	 
         System.out.println("Suma: " + (a + b));
  }
- if(c== 2){       System.out.println("Resta: " + (a - b));
+ else if(c== 2){       System.out.println("Resta: " + (a - b));
  
  }
- if(c== 3){       System.out.println("Multiplicación: " + (a * b));
+ else if(c== 3){       System.out.println("Multiplicación: " + (a * b));
  
  }
- if(c== 4){      System.out.println("División: " + (a / b));
+ else if(c== 4){      System.out.println("División: " + (a / b));
  
  }
     }
