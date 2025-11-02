@@ -29,10 +29,10 @@ public class Calculadora {
 	 
         System.out.println("Suma: " + (a + b));
  }
- if(c== 2){       System.out.println("Resta: " + (a - b));
+ else if(c== 2){       System.out.println("Resta: " + (a - b));
  
  }
- if(c== 3){ 
+ else if(c== 3){ 
 	 System.out.println("introduzca primer valor a multiplicar");
 	 a = scan.nextInt();
 	 System.out.println("introduzca segundo valor a multiplicar");
@@ -41,7 +41,7 @@ public class Calculadora {
 	 System.out.println("Multiplicación: " + (a * b));
  
  }
- if(c== 4){      System.out.println("División: " + (a / b));
+ else if(c== 4){      System.out.println("División: " + (a / b));
  
  }
     }
